@@ -1,0 +1,58 @@
+AllCops:
+  Exclude:
+    - 'Rakefile'
+    - 'Gemfile'
+    - 'bin/console'
+    - 'log_manager.gemspec'
+
+# Max line in 250 cause of wide screens
+Metrics/LineLength:
+  Max: 250
+
+# Max Mehotd length, 20 lines
+Metrics/MethodLength:
+  Max: 30
+
+# Assignment Branch Condition size
+Metrics/AbcSize:
+  Max: 30
+
+# Ignore redundant return
+Style/RedundantReturn:
+  Enabled: false
+
+# Ignore redundant self
+Style/RedundantSelf:
+  Enabled: false
+
+# Ignore documentation
+Style/Documentation:
+  Enabled: false
+
+# Ignore braces around hash
+Style/BracesAroundHashParameters:
+  Enabled: false  
+
+# Ignore guarde clause
+Style/GuardClause:
+  Enabled: false    
+
+# Ignore ASCII chars in commments
+Style/AsciiComments:
+  Enabled: false
+
+# Double Negation helps. See app/models/user.rb (37)
+Style/DoubleNegation:
+  Enabled: false  
+
+# CaseEquality (por ahora desactivado)
+Style/CaseEquality:
+  Enabled: false  
+
+# Naming methods (por ahora desactivado)
+Style/AccessorMethodName:
+  Enabled: false
+
+# Unsed method arguments (por ahora desactivado)
+Lint/UnusedMethodArgument:
+  Enabled: false
