@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'log_manager'
+gem 'log_manager', github: 'martinnicolas/log_manager'
 ```
 
 And then execute:
@@ -22,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following line to make your logs availables.
+
+```ruby
+mount LogManager::Engine => "/logs"
+```
+
 
 ## Development
 

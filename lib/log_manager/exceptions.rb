@@ -1,3 +1,3 @@
 module LogManager
-  class MaxLineLengthNegative < StandardError; end
+  class NegativeMaxLineLength < StandardError; end
 end
