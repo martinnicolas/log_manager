@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     log_manager (0.0.1)
-      rails (~> 4.0.13)
 
 GEM
   remote: https://rubygems.org/
@@ -102,11 +101,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.17)
+  bundler (~> 1.16)
   log_manager!
+  rails (~> 4.0.13)
   rake (~> 10.0)
   rspec (~> 3.0)
   rubocop (~> 0.41.0)
 
 BUNDLED WITH
-   1.17.3
+   1.16.6

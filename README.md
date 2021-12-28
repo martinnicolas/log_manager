@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Add the following line to make your logs availables.
+Add the following line in config/routes.rb to make your logs availables at /logs.
 
 ```ruby
 mount LogManager::Engine => "/logs"
