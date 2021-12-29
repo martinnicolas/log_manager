@@ -1,5 +1,6 @@
 # LogManager
 
+[![Build Status](https://app.travis-ci.com/martinnicolas/log_manager.svg?branch=master)](https://app.travis-ci.com/martinnicolas/log_manager)
 [![Wercker](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) 
 
 LogManager allows you to check your Rails app log's.
