@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["martinnicolas"]
   spec.email         = ["ttincho77@gmail.com"]
 
-  spec.summary       = %q{Manage log's application.}
-  spec.description   = %q{Allows you to manage log's application.}
+  spec.summary       = %q{Manage rails application logs.}
+  spec.description   = %q{Manage rails application logs.}
   spec.homepage      = "https://github.com/martinnicolas/log_manager"
   spec.license       = "MIT"
 

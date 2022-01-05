@@ -1,5 +1,7 @@
 # LogManager
 
+![log_manager](https://user-images.githubusercontent.com/5104496/148238823-d261d7ee-f0eb-4b04-a122-6435c54521cf.png)
+
 [![Build Status](https://app.travis-ci.com/martinnicolas/log_manager.svg?branch=master)](https://app.travis-ci.com/martinnicolas/log_manager)
 [![Wercker](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) 
 
@@ -29,6 +31,25 @@ Add the following line in config/routes.rb to make your logs availables at /logs
 mount LogManager::Engine => '/logs'
 ```
 
+## Mount using warden (devise)
+
+```ruby
+  admin_constraint = lambda do |request|
+    request.env['warden'].authenticate? and request.env['warden'].user.role?(:sadmin)
+  end
+
+  constraints admin_constraint do
+    mount LogManager::Engine, at: "/logs"
+  end
+```
+
+## Mount using devise (method 2)
+
+```ruby
+  authenticate :user, ->(u) { u.role?(:sadmin) } do
+    mount LogManager::Engine, at: "/logs"
+  end
+```
 
 ## Development
 
