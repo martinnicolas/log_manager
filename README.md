@@ -51,6 +51,10 @@ mount LogManager::Engine => '/logs'
   end
 ```
 
+Change :user symbol with your devise user. In -> lambda block change u.role?(:sadmin) method with your authorization method Or simply define a role? method in your user model.
+
+![log_manager](https://user-images.githubusercontent.com/5104496/148417234-4e9be767-0e23-45d7-b6cd-55dd7dccf3de.png)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
