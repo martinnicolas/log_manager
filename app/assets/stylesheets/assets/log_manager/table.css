@@ -1,0 +1,7 @@
+thead, tbody { display: block; }
+
+tbody {
+  height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

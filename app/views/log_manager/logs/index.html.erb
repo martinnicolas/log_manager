@@ -1,5 +1,17 @@
-<b><%= t :environment %> : <%= @environment %></b>
-
-<% @file_data.each do |line| %>
-  <%= line %><br/>
-<% end %>
+<div><%= t :environment %> : <%= @environment %></div>
+<div>
+  <table>
+    <thead>
+      <th>
+        <td>&nbsp;</td>
+      </th>
+    </thead>
+    <tbody>
+      <% @file_data.each do |line| %>
+        <tr>
+          <td><%= line %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
