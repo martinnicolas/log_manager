@@ -1,6 +1,6 @@
 # LogManager
 
-![log_manager_banner](https://user-images.githubusercontent.com/5104496/148247214-515f959a-3697-495a-80d4-5d088e079651.png)
+![log_manager_banner](https://user-images.githubusercontent.com/5104496/148384953-f5a71857-dda9-4cd6-9d8c-e124a554792b.png)
 
 [![Build Status](https://app.travis-ci.com/martinnicolas/log_manager.svg?branch=master)](https://app.travis-ci.com/martinnicolas/log_manager)
 [![Wercker](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) 
