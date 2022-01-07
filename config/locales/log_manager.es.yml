@@ -3,3 +3,4 @@
 
 es:
   environment: "Ambiente"
+  file_size: "Tamaño del archivo"
