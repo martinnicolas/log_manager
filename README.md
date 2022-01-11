@@ -12,7 +12,7 @@ LogManager allows you to check your Rails app log's.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'log_manager', github: 'martinnicolas/log_manager'
+gem 'log_manager', git: 'https://github.com/martinnicolas/log_manager'
 ```
 
 And then execute:

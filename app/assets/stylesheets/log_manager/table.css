@@ -1,3 +1,7 @@
+table {
+  width: 100%;
+}
+
 thead, tbody { display: block; }
 
 tbody {
@@ -5,5 +9,5 @@ tbody {
   overflow-y: auto;
   overflow-x: hidden;
   background-color: black;
-  color:  white;
+  color: white;
 }
