@@ -1,7 +1,9 @@
 <div>
   <table>
     <thead>
-      <th>LogManager v <%= LogManager::VERSION %> | <%= t :environment %>: <%= @environment %> | <%= t :file_size %>: <%= @file_size %></th>
+      <tr>
+        <th>LogManager v <%= LogManager::VERSION %> | <%= t :environment %>: <%= @environment %> | <%= t :file_size %>: <%= @file_size %></th>
+      </tr>
     </thead>
     <tbody>
       <% @file_data.each do |line| %>
@@ -10,5 +12,5 @@
         </tr>
       <% end %>
     </tbody>
-  </table>
+  </table>  
 </div>
