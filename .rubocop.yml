@@ -41,7 +41,7 @@ Style/GuardClause:
 Style/AsciiComments:
   Enabled: false
 
-# Double Negation helps. See app/models/user.rb (37)
+# Double Negation helps
 Style/DoubleNegation:
   Enabled: false  
 
